@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/popups.css">
+    <link rel="stylesheet" href="/css/button.css">
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <img id="logo" src="/images/favicons/192.png">
+    <div class="line-separator"></div>
+    <h3 class="white-text" id="title">EUL Student App</h3>
+    <p class="white-text" id="description">Login to your <a id="link-to-oibs-link" target="_blank" href="http://oibs.eul.edu.tr/">OIBS</a><i class="fas fa-external-link-alt"></i> account so we can collect the data needed.</p>
+    <h3 class="white-text">SESSION ID: <span class="text-warning" id="collectStatus">Waiting</span></h3>
+    <p class="white-text">When you have logged into your OIBS account click the `Collect Session ID` button bellow so we can collect the needed data.</p>
+    <button class="btn btn-collect" id="collectData">Collect Session ID</button>
+    <br>
+    <p class="white-text">Go to <a target="_blank" href="https://studentbuild.herokuapp.com/sessioncode">Session Code</a> to enter your session ID</p>
+    <button class="btn btn-set" id="setData">Place Session ID</button>
+    <br>
+    <button class="btn btn-show" id="showData">Show Session ID</button>
+    <br>
+    <p id="showDataP"></p>
+    <script src="/componets/popup.js" type="module"></script>
+  </body>
+</html>

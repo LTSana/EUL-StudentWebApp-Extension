@@ -1,0 +1,36 @@
+{
+    "name": "EUL Student App Extension",
+    "description": "This extension is needed to use EUL Student App and get the users session ID from OIBS.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "/componets/background.js"
+    },
+    "permissions": [
+        "cookies",
+        "storage", 
+        "activeTab", 
+        "scripting",
+        "input"
+    ],
+    "host_permissions": [
+        "*://studentbuild.herokuapp.com/",
+        "*://oibs.eul.edu.tr/*"
+    ],
+    "action": {
+        "default_popup": "popups/popup.html",
+        "default_icon": {
+            "16": "/images/favicons/16.png",
+            "32": "/images/favicons/32.png",
+            "48": "/images/favicons/180.png",
+            "128": "/images/favicons/192.png"
+        }
+    },
+    "icons": {
+      "16": "/images/favicons/16.png",
+      "32": "/images/favicons/32.png",
+      "48": "/images/favicons/180.png",
+      "128": "/images/favicons/192.png"
+    },
+    "options_page": "/popups/options.html"
+  }

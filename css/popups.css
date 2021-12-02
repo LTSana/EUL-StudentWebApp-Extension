@@ -1,0 +1,40 @@
+#logo {
+    width: 50px;
+    height: 50px;
+}
+
+.white-text {
+    color: white !important;
+}
+
+.text-success {
+    color: #198754;
+}
+
+#title {
+    font-weight: bold;
+}
+
+.line-separator {
+    height: 2px;
+    background-color: rgb(50, 50, 50);
+    width: 100%;
+}
+
+#link-to-oibs-link {
+    font-weight: bold !important;
+    color: rgb(0, 255, 251);
+}
+
+#showDataP {
+    display: none;
+    font-weight: 400;
+    max-width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: rgb(0, 189, 154);
+    word-wrap: break-word;
+    background-color: rgb(87, 87, 87);
+    color: white;
+}

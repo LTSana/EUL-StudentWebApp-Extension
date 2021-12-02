@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(8,8,8);
+    min-width: 300px;
+    max-width: 300px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+a {
+    color: gray;
+}
+
+.white-text {
+    color: white !important;
+}
+
+.text-success {
+    color: #198754;
+}
+
+.text-warning {
+    color: #ffc107;
+}
+
+.text-info {
+    color: #0dcaf0;
+}
+
+.text-danger {
+    color: #dc3545;
+}
+
+.btn {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    width: 93%;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.btn:hover {
+    background-color: rgb(189, 189, 189);
+    border-color: aquamarine;
+}
