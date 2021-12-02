@@ -14,7 +14,7 @@
         "input"
     ],
     "host_permissions": [
-        "*://studentbuild.herokuapp.com/",
+        "*://eulstudentapp.herokuapp.com/*",
         "*://oibs.eul.edu.tr/*"
     ],
     "action": {
